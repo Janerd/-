@@ -1,9 +1,9 @@
 /////////////////////////////////////////////////////////////////////////////////////
-//// voice communication code                                               /////////
-////based on rtp                                                            /////////        
-////there are two threads ,                                                 /////////
-////one of them take charge of recording and sending data packets,          /////////  
-////the other one take charge of receiving data packets and playing them.   /////////
+//// 语音交流程序                                                            /////////
+//// 基于RTP                                                                /////////        
+//// 创建两个线程                                                            /////////
+//// 一个线程负责录音然后发送数据包                                            /////////  
+//// 另一个接受数据包并播放                                                   /////////
 /////////////////////////////////////////////////////////////////////////////////////
 #include <pthread.h>
 #include <fcntl.h>
